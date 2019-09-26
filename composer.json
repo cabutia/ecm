@@ -1,0 +1,26 @@
+{
+    "name": "leandro/ecm",
+    "description": "Simple package for fast ecommerce development",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro Gomez",
+            "email": "leandrogrotnig11@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ecm\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ecm\\Providers\\EcmServiceProvider"
+            ]
+        }
+    }
+}
